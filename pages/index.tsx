@@ -1,18 +1,8 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>NFT Marketplace</title>
-        <meta name="description" content="NFT Marketplace" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      Hi there!
-    </div>
-  );
+  return <div className={styles.container}>Hi there!</div>;
 };
 
 export default Home;
